@@ -2,6 +2,9 @@
 
 Personal [Ghostty](https://ghostty.org) terminal config: Chromium-style merged-titlebar tabs (libadwaita), Sweet color palette ported from Konsole, and a `tabs.css` that compresses the tab bar past libadwaita's enforced minimums.
 
+<img width="805" height="379" alt="image" src="https://github.com/user-attachments/assets/e4f8af80-f977-4122-86e1-26ce8812823d" />
+
+
 ## Install
 
 Back up any existing config, then clone into place:
