@@ -1,10 +1,6 @@
-# Reload at runtime: ctrl+shift+,
-# All options:       ghostty +show-config --default --docs | less
-
 font-family = "CommitMono Nerd Font Mono"
 font-size = 10
 
-# Sweet color scheme (ported from Konsole)
 background = 161925
 foreground = c3c7d1
 cursor-color = c3c7d1
@@ -38,9 +34,7 @@ window-padding-y = 1
 
 copy-on-select = clipboard
 
-# One process per launch — needed for PID-based window positioning scripts
 gtk-single-instance = false
-
 gtk-titlebar-style = tabs
 gtk-toolbar-style = flat
 gtk-wide-tabs = false
