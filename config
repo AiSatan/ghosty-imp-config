@@ -1,0 +1,47 @@
+# Reload at runtime: ctrl+shift+,
+# All options:       ghostty +show-config --default --docs | less
+
+font-family = "CommitMono Nerd Font Mono"
+font-size = 10
+
+# Sweet color scheme (ported from Konsole)
+background = 161925
+foreground = c3c7d1
+cursor-color = c3c7d1
+selection-background = 3a3f4b
+selection-foreground = dcdfe4
+
+palette = 0=#282c34
+palette = 1=#ed254e
+palette = 2=#71f79f
+palette = 3=#f9dc5c
+palette = 4=#7cb7ff
+palette = 5=#c74ded
+palette = 6=#00c1e4
+palette = 7=#dcdfe4
+palette = 8=#5c6370
+palette = 9=#ff5277
+palette = 10=#8effb8
+palette = 11=#ffe97e
+palette = 12=#9bc7ff
+palette = 13=#d97cf2
+palette = 14=#5fd9f5
+palette = 15=#ffffff
+
+background-opacity = 0.65
+background-blur-radius = 20
+
+window-width = 100
+window-height = 27
+window-padding-x = 1
+window-padding-y = 1
+
+copy-on-select = clipboard
+
+# One process per launch — needed for PID-based window positioning scripts
+gtk-single-instance = false
+
+gtk-titlebar-style = tabs
+gtk-toolbar-style = flat
+gtk-wide-tabs = false
+gtk-custom-css = tabs.css

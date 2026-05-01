@@ -1,0 +1,48 @@
+/* Shrink the bar via negative margins — libadwaita won't honor smaller
+   min-height directly, but cropping its rendered rect works. */
+headerbar {
+  margin-top: -6px;
+  margin-bottom: -6px;
+  padding: 0;
+}
+
+headerbar button {
+  min-height: 16px;
+  min-width: 16px;
+  padding: 2px;
+}
+
+tabbar {
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+/* Tabs can't be shrunk via min-height (libadwaita-enforced floor), so
+   visually scale them down. Counter-scale the label so text reads normal. */
+tabbar tabbox tab {
+  transform: scale(0.8);
+  transform-origin: center;
+  padding: 0 4px;
+  margin: 0 -8px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+tabbar tabbox tab:checked,
+tabbar tabbox tab:selected {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+tabbar tabbox tab label {
+  font-size: 14px;
+}
+
+/* Shrink the tab's close-X button. This was the biggest contributor to
+   the tab's natural allocation; reducing it tightens the inset created
+   by scaleY(0.6) without changing the bar crop. */
+tabbar tabbox tab button {
+  min-height: 12px;
+  min-width: 12px;
+  padding: 0;
+  margin: 0;
+}
