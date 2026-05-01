@@ -38,6 +38,10 @@ window-padding-y = 1
 
 copy-on-select = false
 
+bell-features = audio,system,attention,title
+bell-audio-path = ~/Music/Notifications/Vo_viper_vipe_move_11.mp3.mpeg.ogg
+bell-audio-volume = 0.5
+
 gtk-single-instance = false
 window-decoration = client
 gtk-titlebar-style = tabs
