@@ -36,7 +36,7 @@ window-height = 27
 window-padding-x = 1
 window-padding-y = 1
 
-copy-on-select = clipboard
+copy-on-select = false
 
 gtk-single-instance = false
 window-decoration = client
