@@ -1,3 +1,8 @@
+window,
+window.background {
+  border-radius: 0;
+}
+
 headerbar {
   margin-top: -6px;
   margin-bottom: -6px;
